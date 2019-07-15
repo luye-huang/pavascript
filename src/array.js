@@ -1,0 +1,4 @@
+Array.prototype.count = function(){
+
+}
+

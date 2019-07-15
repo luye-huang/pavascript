@@ -1,0 +1,18 @@
+{
+  "name": "pavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "python",
+    "javascript"
+  ],
+  "author": "huangluye",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^1.17.0"
+  }
+}
