@@ -1,4 +1,3 @@
-import './string';
-var array = require('./array');
-export {array};
- 
+var String = require('./string');
+var Array = require('./array');
+export {Array, String};
