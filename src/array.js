@@ -1,9 +1,9 @@
 import { isEqual } from './utils';
 
-Array.prototype.append = [].push;
+// Array.prototype.append = [].push;
 
 Array.prototype.clear = function () {
-    this = [];
+    // this = [];
 }
 
 Array.prototype.clear = function () {
@@ -27,6 +27,12 @@ Array.prototype.index = [].indexOf;
 
 Array.prototype.insert = function (index, obj) {
     this.splice(index, 0, obj);
+}
+
+Array.prototype.pop = function (index = this.length - 1) {
+    const rt = this[index];
+    this.splice(index, 1);
+    return rt;
 }
 
 Array.prototype.remove = function (obj) {
