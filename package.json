@@ -21,6 +21,7 @@
     "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
     "babel-preset-env": "^1.7.0",
     "karma": "^4.2.0",
+    "karma-babel-preprocessor": "^7.0.0",
     "karma-chrome-launcher": "^3.0.0",
     "karma-jasmine": "^2.0.1"
   }
